@@ -10,9 +10,11 @@ body {
   color: #333;
   line-height: 1.6;
 }
+
 #cabeca {
   border: #158a29 solid;
 }
+
 nav {
   position: fixed;
   top: 0;
@@ -26,10 +28,12 @@ nav {
   z-index: 1000;
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
+
 nav.scrolled {
   background: #477a50;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
 nav .logo {
   font-weight: bold;
   font-size: 24px;
@@ -52,9 +56,9 @@ nav ul li a {
 nav ul li a:hover {
   color: #a3d2ca;
 }
+
 header {
-  background: url("https://i.pinimg.com/1200x/ea/28/01/ea28010e5411734f4a17b630c74d9729.jpg")
-    no-repeat center center/cover;
+  background: url("https://i.pinimg.com/1200x/ea/28/01/ea28010e5411734f4a17b630c74d9729.jpg") no-repeat center center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -64,7 +68,10 @@ header {
   padding: 0 16px;
   padding-top: 60px;
   text-align: center;
-  display: flex;margin: 10px auto;
+  display: flex;
+  margin: 10px auto;
+  border: #158a29 solid 8px;
+  border-radius: 10px;
 }
 
 header h1 {
@@ -72,13 +79,18 @@ header h1 {
   max-width: 700px;
   line-height: 1.2;
   animation: fadeInDown 1.5s ease forwards;
-  display: flex;margin: 10px auto;
+  display: flex;
+  margin: 10px auto;
 }
-.container {
+
+.container {               
+  
+  
   max-width: 12000;
-  margin: 20xp auto;
+
   padding: 0 20px;
 }
+
 .container img {
   font-size: 16px;
   display: inline-block;
@@ -88,21 +100,68 @@ header h1 {
   border-radius: 10px;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
+
+.container :hover {
+
+  transform: scale(1.1);
+
+}
+
 section h2 {
   color: #0b4609;
 }
-.container2 {
+
+.bla {
   max-width: 12000;
-  margin: 20xp auto;
+  margin: 0px;
   padding: 0 2 0px;
-  display: flex;margin: 1px;
+  display: flex;
+  margin: 1px;
 }
-.container2 img {
+
+.bla img {
   font-size: 16px;
   display: inline-block;
-  width: 380px;
+  width: 300px;
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.bla :hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  color: #0b4609;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 6px;
+}
+
+.shader {
+  max-width: 12000;
+  padding: 0 2 0px;
+  display: flex;
+  margin: 1px;
+  margin: 140px;
+}
+
+.shader img {
+  font-size: 16px;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  margin: 140px;
+
+}
+.shader :hover{
+  transform: scale(1.1);
+}
+.imagem {
+  margin-left: auto;
 }
