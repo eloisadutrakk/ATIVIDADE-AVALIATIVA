@@ -179,3 +179,19 @@ footer {
   border-top: 4px solid #0b4609;
   font-size: 14px;
 }
+.links {
+  margin: 20px;
+  font-size: 20px;
+  color: rgb(240, 6, 6);
+  background-color: rgb(122, 35, 35);
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+.links :hover {
+  background-color: rgb(240, 6, 6);
+  color: white;
+  transform: scale(1.2);
+}
+
+
