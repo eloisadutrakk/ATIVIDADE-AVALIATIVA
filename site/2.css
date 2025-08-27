@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #555353;
+  color: #333;
+  line-height: 1.6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  color: rgb(235, 108, 108);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px 32px;
+  z-index: 1000;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+#cabeca {
+  border: #c94797 solid;
+}
+nav.scrolled {
+  background: #d63bc9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+nav .logo {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+nav ul li a {
+  color: rgb(228, 112, 193);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #0f4494;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+header {
+  background: url("https://i.pinimg.com/1200x/ea/dc/1c/eadc1c62dba96ef9054ffe1b425fbf00.jpg")
+    no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(33, 226, 58, 0.582);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  padding: 0 16px;
+  padding-top: 60px;
+  text-align: center;
+  display: flex;
+  margin: 10px auto;
+  border: #d65989 solid 8px;
+  border-radius: 10px;
+}
+h1 {
+  color: rgb(202, 96, 117);
+  font-size: 48px;
+  max-width: 700px;
+  line-height: 1.2;
+  animation: fadeInDown 1.5s ease forwards;
+  display: flex;
+  margin: 10px auto;
+}
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: #c94797 solid 4px;
+  background: #f58ed1;
+}
+h2 {
+  color: rgb(104, 13, 82);
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+li {
+  margin-bottom: 10px;
+  color: rgb(104, 13, 82);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #7c7a7a;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: #c94797 solid 4px;
+}
